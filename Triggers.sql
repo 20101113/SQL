@@ -14,7 +14,7 @@ new_email varchar(100),
 changed_at timestamp default current_timestamp);
 
 
-insert into customers(name,email) values('Auahdahd','dqhduiqwh@gmail.com');
+insert into customers(name,email) values('Rama','tulasi@gmail.com');
 
 select * from customers;
 
@@ -32,5 +32,5 @@ end//
 delimiter ;
 
 select * from email_changes_log;
-update customers set email='jdiejweiod@gmail.com' where id =1
+update customers set email='Rama@gmail.com' where id =1
 select * from customers
